@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-bodoni: 'Bodoni Moda', Georgia, serif;
+    --font-jost: 'Jost', sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: #F7F3EA;
+    color: #23221F;
+  }
+
+  body {
+    background-color: #F7F3EA;
+    color: #23221F;
+    font-family: var(--font-jost), sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color: #3E4A2F;
+    color: #F7F3EA;
+  }
+}
+
+/* Custom hairline borders and transitions */
+.hairline-border {
+  border-width: 1px;
+  border-color: #D8CDB8;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

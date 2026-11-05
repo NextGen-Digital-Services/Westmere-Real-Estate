@@ -1,0 +1,58 @@
+import { Testimonial } from "@/types";
+
+export const TESTIMONIALS: Testimonial[] = [
+  {
+    id: "test-1",
+    author: "Willem & Catherine de Ruiter",
+    role: "Private Art Collectors",
+    location: "Amsterdam, Keizersgracht",
+    quote: "Acquiring a listed Rijksmonument on the Keizersgracht requires discreet, deep legal expertise. Van der Meer & Co. handled the foundation assessments, monumental permits, and private negotiations with consummate sophistication.",
+    rating: 5,
+    propertyType: "Canal House Acquisition",
+  },
+  {
+    id: "test-2",
+    author: "Henriette van Lynden",
+    role: "International Diplomatic Envoy",
+    location: "The Hague, Benoordenhout",
+    quote: "Our transition from Geneva to The Hague demanded an advisor who understood ambassadorial housing security, diplomatic zoning, and swift family relocation. Eveline was peerless.",
+    rating: 5,
+    propertyType: "Diplomatic Manor Purchase",
+  },
+  {
+    id: "test-3",
+    author: "Marcus & Elena Lindholm",
+    role: "Fintech Founders",
+    location: "Rotterdam, Kop van Zuid",
+    quote: "The team secured off-market access to the highest residential penthouse in the Netherlands. Their financial modeling, transfer tax advice, and bespoke service exceeded our highest expectations.",
+    rating: 5,
+    propertyType: "Sky Penthouse Acquisition",
+  },
+  {
+    id: "test-4",
+    author: "Dirk-Jan van den Brink",
+    role: "Managing Director, Dutch Maritime Group",
+    location: "Haarlem & Bloemendaal",
+    quote: "When divesting our estate in Bloemendaal, discretion was paramount. The private sales strategy brought qualified international buyers without a single intrusive public open day.",
+    rating: 5,
+    propertyType: "Private Estate Divestment",
+  },
+  {
+    id: "test-5",
+    author: "Sophie Moreau",
+    role: "Architectural Historian",
+    location: "Utrecht, Oudegracht",
+    quote: "Finding an authentic 17th-century wharf cellar with structural integrity is nearly impossible in Utrecht. Maarten guided us through every preservation subsidy and structural detail.",
+    rating: 5,
+    propertyType: "Wharf Cellar Heritage Acquisition",
+  },
+  {
+    id: "test-6",
+    author: "Dr. Alexander Klein",
+    role: "MedTech Chief Scientist",
+    location: "Eindhoven, Brainport",
+    quote: "Relocating our research practice required both a zero-emission family villa and private laboratory proximity. Lars matched us with an exceptional modernist eco-villa in days.",
+    rating: 5,
+    propertyType: "Architectural Villa Purchase",
+  },
+];

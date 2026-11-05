@@ -1,0 +1,72 @@
+// Centralized high-resolution Unsplash image mappings matching Dutch architecture and luxury interiors
+const u = (id: string, w = 1200, h = 800) =>
+  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&h=${h}&q=80`;
+
+export const IMAGES = {
+  hero: {
+    main: u("photo-1512470876302-972faa2aa9a4", 1920, 1080),
+    about: u("photo-1534351590666-13e3e96b5017", 1440, 900),
+    contact: u("photo-1583295125721-766a0088cb3b", 1440, 700),
+    valuation: u("photo-1600585154340-be6161a56a0c", 1440, 700),
+    sell: u("photo-1600596542815-ffad4c1539a9", 1440, 700),
+    projects: u("photo-1545324418-cc1a3fa10c00", 1440, 700),
+    services: u("photo-1497366216548-37526070297c", 1440, 700),
+  },
+  cities: {
+    amsterdam: u("photo-1512470876302-972faa2aa9a4", 800, 600),
+    rotterdam: u("photo-1580655653885-65763b2597d0", 800, 600),
+    theHague: u("photo-1588668214407-6ea9a6d8c272", 800, 600),
+    utrecht: u("photo-1584448141569-69f342da535c", 800, 600),
+    eindhoven: u("photo-1486406146926-c627a92ad1ab", 800, 600),
+    haarlem: u("photo-1506973035872-a4ec16b8e8d9", 800, 600),
+    groningen: u("photo-1517736996303-4eec4a66bb17", 800, 600),
+    maastricht: u("photo-1576941089067-2de3c901e126", 800, 600),
+    leiden: u("photo-1534351590666-13e3e96b5017", 800, 600),
+    delft: u("photo-1583295125721-766a0088cb3b", 800, 600),
+    breda: u("photo-1576941089067-2de3c901e126", 800, 600),
+    almere: u("photo-1600585154340-be6161a56a0c", 800, 600),
+  },
+  interiors: {
+    livingModern: u("photo-1600607687939-ce8a6c25118c", 1200, 800),
+    livingHistoric: u("photo-1600573472550-8090b5e0745e", 1200, 800),
+    kitchenMarble: u("photo-1600566753376-12c8ab7fb75b", 1200, 800),
+    kitchenMinimal: u("photo-1556911220-e15b29be8c8f", 1200, 800),
+    masterBedroom: u("photo-1600585154526-990dced4db0d", 1200, 800),
+    guestBedroom: u("photo-1595526114035-0d45ed16cfbf", 1200, 800),
+    bathroomSpa: u("photo-1584622650111-993a426fbf0a", 1200, 800),
+    bathroomStone: u("photo-1620626011761-996317b8d101", 1200, 800),
+    diningRoom: u("photo-1617806118233-18e1de247200", 1200, 800),
+    terraceBalcony: u("photo-1600566752355-35792bedcfea", 1200, 800),
+    libraryStudy: u("photo-1507089947368-19c1da9775ae", 1200, 800),
+    gardenCourtyard: u("photo-1580587771525-78b9dba3b914", 1200, 800),
+    wineCellar: u("photo-1510812431401-41d2bd2722f3", 1200, 800),
+  },
+  commercial: {
+    officeOpen: u("photo-1497215728101-856f4ea42174", 1200, 800),
+    boardroom: u("photo-1497366811353-6870744d04b2", 1200, 800),
+    glassLobby: u("photo-1486406146926-c627a92ad1ab", 1200, 800),
+    executiveSuite: u("photo-1497366216548-37526070297c", 1200, 800),
+  },
+  floorplans: {
+    standard: u("photo-1600585152220-90363fe7e115", 1000, 800),
+    penthouse: u("photo-1600585154340-be6161a56a0c", 1000, 800),
+  },
+  agents: {
+    agent1: u("photo-1534528741775-53994a69daeb", 600, 750),
+    agent2: u("photo-1507003211169-0a1dd7228f2d", 600, 750),
+    agent3: u("photo-1573496359142-b8d87734a5a2", 600, 750),
+    agent4: u("photo-1500648767791-00dcc994a43e", 600, 750),
+    agent5: u("photo-1580489944761-15a19d654956", 600, 750),
+    agent6: u("photo-1519085360753-af0119f7cbe7", 600, 750),
+    agent7: u("photo-1560250097-0b93528c311a", 600, 750),
+    agent8: u("photo-1573497019940-1c28c88b4f3e", 600, 750),
+  },
+  projects: {
+    project1: u("photo-1545324418-cc1a3fa10c00", 1200, 800),
+    project2: u("photo-1600585154340-be6161a56a0c", 1200, 800),
+    project3: u("photo-1576941089067-2de3c901e126", 1200, 800),
+    project4: u("photo-1600596542815-ffad4c1539a9", 1200, 800),
+    project5: u("photo-1486406146926-c627a92ad1ab", 1200, 800),
+    project6: u("photo-1512917774080-9991f1c4c750", 1200, 800),
+  },
+};
